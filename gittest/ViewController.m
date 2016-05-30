@@ -20,6 +20,10 @@
     UIView *aview = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     aview.backgroundColor = [UIColor redColor];
     [self.view addSubview:aview];
+    UILabel *lbl = [[UILabel alloc] initWithFrame:CGRectMake(100, 200, 100, 50)];
+    lbl.text= @"最后一个分支";
+    [self.view addSubview: lbl];
+    
 
 }
 
